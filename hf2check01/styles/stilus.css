@@ -1,0 +1,45 @@
+
+div#wrapper {
+    margin: 10px;
+}
+
+aside {
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+footer {
+
+
+    padding: 5px 20px;
+    background-color: #f2f7f6;
+}
+
+.message {
+    border: 1px solid grey;
+    margin: 10px;
+}
+.head {
+    padding: 10px;
+    background: #f2f7f6;
+}
+.id {
+    font-weight: 700;
+}
+.name {
+
+}
+.email {
+    color: grey;
+}
+.subject {
+
+}
+.content {
+    padding: 10px;
+}
+
+.nyitokep {
+    max-height: 300px;
+}
