@@ -33,6 +33,10 @@ require_once('Model/' . $oldal . 'Model.php');
 $controllerName = $oldal . 'Controller';
 $controller = new $controllerName();
 
+if (property_exists($controller, 'isAjax')) {
+    $ajax = $controller->isAjax;
+}
+
 $content = $controller->render();
 if (!$ajax) {
     $header = render('View/header.php', $fejlec);

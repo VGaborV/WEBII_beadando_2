@@ -20,8 +20,22 @@ class termekekModel {
         return $rows;
     }
 
-    function termekek() {
-        $rows = Database::query('SELECT * from gep order by id desc');
+    function termekek($oprendszer = null, $gyarto = null, $processzor = null) {
+        $where = 'WHERE 1 = 1';
+
+        if ($oprendszer !== null) {
+            $where .= ' AND oprendszer.id = ' . intval($oprendszer);
+        }
+
+        if ($gyarto !== null) {
+            $where .= ' AND gep.gyarto = "' . filter_var($gyarto, FILTER_SANITIZE_STRING) . '"';
+        }
+
+        if ($processzor !== null) {
+            $where .= ' AND processzor.gyarto = "' . filter_var($processzor, FILTER_SANITIZE_STRING) . '"';
+        }
+
+        $rows = Database::query('SELECT gep.*, processzor.tipus as processzor, oprendszer.nev as oprendszer from gep LEFT JOIN processzor ON processzor.id = gep.processzorid LEFT JOIN oprendszer ON oprendszer.id = gep.oprendszerid ' . $where . ' order by id desc ');
         return $rows;
     }
 }

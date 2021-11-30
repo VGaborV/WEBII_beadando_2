@@ -3,18 +3,21 @@
       <div class="row">
           <div class="col-md-12">
             <h3>Szűrés</h3>
-            Operációs rendszer: <select>
+            Operációs rendszer: <select id="oprendszer-szures">
+              <option value="">Mind</option>
 <?php
 if (!empty($params['oprendszerek'])) {
     foreach($params['oprendszerek'] as $oprendszer) {
         ?>
+
                 <option value="<?php echo $oprendszer['id']?>"><?php echo $oprendszer['nev']?></option>
         <?php
     }
 }
 ?>
             </select>
-            Gép gyártó: <select>
+            Gép gyártó: <select id="gyarto-szures">
+              <option value="">Mind</option>
                   <?php
                   if (!empty($params['gepGyarto'])) {
                       foreach($params['gepGyarto'] as $gepgyarto) {
@@ -26,7 +29,8 @@ if (!empty($params['oprendszerek'])) {
                   ?>
             </select>
             Processzor gyártója:
-            <select>
+            <select id="processzor-gyarto-szures">
+              <option value="">Mind</option>
                 <?php
                 if (!empty($params['processzorGyarto'])) {
                     foreach($params['processzorGyarto'] as $gyarto) {
@@ -38,6 +42,7 @@ if (!empty($params['oprendszerek'])) {
                 ?>
             </select>
             <button class="btn btn-primary" id="termekSzures">Szűrés</button>
+            <button class="btn btn-primary" id="pdfExport">PDF Exportálás</button>
           </div>
         <div class="row">
           <div class="col-md-12">

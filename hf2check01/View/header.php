@@ -14,6 +14,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="/scripts/main.js"></script>
     <script src="/scripts/termek.js"></script>
+    <script src="/scripts/termekszerkesztes.js"></script>
+    <script src="/scripts/feladatszerkesztes.js"></script>
 </head>
 <body>
 	<header>
