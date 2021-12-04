@@ -15,6 +15,7 @@
     <script src="/scripts/main.js"></script>
     <script src="/scripts/termek.js"></script>
     <script src="/scripts/termekszerkesztes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
     <script src="/scripts/feladatszerkesztes.js"></script>
 </head>
 <body>

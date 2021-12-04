@@ -8,25 +8,23 @@
 
               <h2>Üdvözöljük!</h2>
 
-              <p>Legyen szó bármilyen vízszerelési munkáról vagy duguláselhárításról, azonnal, akár 1 órás kiszállással is el tudjuk végezni az adott munkát.
-
-              Azonnali kiszállással végzett 0-24 gyorsszolgáltati vízszerelő munkáink –teljesség igénye nélkül.</p>
-
-
-              <h2>Fürdőszobai és konyhai vízszerelés</h2>
-              <p>A kádak, WC-csészék és -tartályok, mosdókagylók, mosogatótálcák, mosdó-, mosogató-, kád- és zuhanycsaptelepek, mosdó-, mosogató-, illetve kádszifonok, flexibilis csövek, valamint sarokszelepek javítása és cseréje is azonnal történik.</p>
+              <p>Minőségi használt laptop garanciával, azonnal raktárról, akár 24 órán belül! 
+			  Minőségi termékek, elérhető áron, amelyekkel még a környezetet is megkíméled. A legjobb ár érték arányú laptopokat nálunk találod.</p>
 
 
-              <h2>Mosogató- és mosógépbekötés</h2>
+              <h2>Munkaállomások</h2>
+              <p>Asztali gépekre jellemző teljesítmény egy laptop hordozhatóságával párosítva! Nagyteljesítményű hordozható munkaállomások, amelyek alkalmasak videóvágásra, grafikai munkára, valamint rendereléshez is.</p>
 
 
-              <p>Új, ajándékba kapott mosó- és mosogatógép beszerelését is megoldjuk. Akár hétvégén és ünnepnapokon is.</p>
+              <h2>Internetezéshez</h2>
 
-              <h2>Duguláselhárítás</h2>
-              <p>Segítünk, ha eldugult a WC vagy a lefolyó, nem folyik le a víz a kádban. Azonnal elhárítjuk a zuhanytálca, a mosogató és a mosdókagyló dugulását is.</p>
 
-              <h2>Csőtörés-elhárítás</h2>
-              <p>Szivárog, esetleg folyik a víz a lakásban? Csőtörést észlelt? Csőtörés-elhárítást gépi és kézi földmunkával is vállalunk. Hívjon minket, azonnal segítünk!</p>
+              <p>Ha csak inernetezésre, egyszerű feladatokra keresel laptopot, miért költenél rengeteg pénzt teljesen új masinára? Válassz a legjobb laptop márkák (Lenovo, Acer, Asus, HP, Fujitsu) közül és spórolj tízezreket! Felújított gépeinket 2 év garanciával adjuk és ingyen szállítjuk. </p>
+
+              <h2>Nagyszülőknek</h2>
+              <p>Ideális laptopok nyugdíjasok számára a legmegbízhatóbb márkáktól (Dell, Lenovo, HP). Elsősorban internetezésre, unokákkal való kapcsolattartásra ajánljuk. Felújított, üzleti kategóriás laptopjaink kibírják a kisebb ütéseket és gyakran cseppállóak; összességében strapabíróbbak az elektrotechnikai áruházak olcsó műanyag burkolatú gépeinél.</p>
+
+              
 
               </div>
           </div>

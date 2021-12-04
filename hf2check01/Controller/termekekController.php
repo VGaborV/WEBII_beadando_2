@@ -15,14 +15,14 @@ class termekekController {
                 'termekek' => $this->model->termekek(
                     isset($_GET['oprendszer']) ? ($_GET['oprendszer']) : null,
                     isset($_GET['gyarto']) ? ($_GET['gyarto']) : null,
-                    isset($_GET['processzor']) ? ($_GET['processzor']) : null,
-                ),
+                    isset($_GET['processzor']) ? ($_GET['processzor']) : null
+                )
             ]);
         } elseif (isset($_GET['pdf']) && $_GET['pdf'] === '1') {
             $termekek = $this->model->termekek(
             isset($_GET['oprendszer']) ? ($_GET['oprendszer']) : null,
             isset($_GET['gyarto']) ? ($_GET['gyarto']) : null,
-            isset($_GET['processzor']) ? ($_GET['processzor']) : null,
+            isset($_GET['processzor']) ? ($_GET['processzor']) : null
             );
 
             require_once('Vendor/tcpdf/tcpdf.php');
@@ -40,8 +40,8 @@ class termekekController {
                 'termekek' => $this->model->termekek(
                     isset($_GET['oprendszer']) ? ($_GET['oprendszer']) : null,
                     isset($_GET['gyarto']) ? ($_GET['gyarto']) : null,
-                    isset($_GET['processzor']) ? ($_GET['processzor']) : null,
-                ),
+                    isset($_GET['processzor']) ? ($_GET['processzor']) : null
+                )
             ]);
 
             $pdf->writeHTMLCell(0, 0, '', '', $html, 0, 1, 0, true, '', true);

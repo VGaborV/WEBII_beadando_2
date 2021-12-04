@@ -1,7 +1,7 @@
 <?php
 class Database {
     
-    public static $host = "127.0.0.1";
+    public static $host = "localhost";
     public static $dbname = "hf_notebook";
     public static $username = "root";
     public static $password = "";
